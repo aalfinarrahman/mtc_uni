@@ -141,7 +141,7 @@ $in_progress_count = count(array_filter($all_requests, function($r) { return in_
                 <li>
                     <a href="#" class="nav-link" onclick="showSection('my-requests'); return false;">
                         <i class="fas fa-list-alt"></i>
-                        <span>My Requests</span>
+                        <span>History Request</span>
                     </a>
                 </li>
                 <li>

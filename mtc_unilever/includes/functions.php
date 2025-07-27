@@ -55,7 +55,7 @@ function getDashboardUrl($role) {
     $dashboards = [
         'admin' => '../mtc_unilever/pages/admin_dashboard.php',
         'user' => '../mtc_unilever/pages/user_dashboard.php',
-        'maintenance' => '../mtc_unilever/pages/admin_dashboard.php', // Sementara redirect ke admin
+        'maintenance' => '../mtc_unilever/pages/maintenance_dashboard.php', // Sementara redirect ke admin
         'engineering_store' => '../mtc_unilever/pages/admin_dashboard.php' // Sementara redirect ke admin
     ];
     
