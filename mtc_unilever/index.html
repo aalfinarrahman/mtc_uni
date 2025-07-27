@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OneBox - Login</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="login-wrapper">
+            <div class="logo-section">
+                <div class="logo-circle">
+                    <div class="logo-content">
+                        <div class="chart-bars">
+                            <div class="bar bar1"></div>
+                            <div class="bar bar2"></div>
+                            <div class="bar bar3"></div>
+                        </div>
+                        <div class="boxes">
+                            <div class="box box1"></div>
+                            <div class="box box2"></div>
+                            <div class="box box3"></div>
+                        </div>
+                        <div class="gear">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                                <path d="M20 12.5C15.8579 12.5 12.5 15.8579 12.5 20C12.5 24.1421 15.8579 27.5 20 27.5C24.1421 27.5 27.5 24.1421 27.5 20C27.5 15.8579 24.1421 12.5 20 12.5Z" fill="#1a237e"/>
+                                <path d="M35 17.5H32.5C32.1 16.2 31.5 15 30.7 13.9L32.4 12.2C32.8 11.8 32.8 11.2 32.4 10.8L29.2 7.6C28.8 7.2 28.2 7.2 27.8 7.6L26.1 9.3C25 8.5 23.8 7.9 22.5 7.5V5C22.5 4.4 22.1 4 21.5 4H18.5C17.9 4 17.5 4.4 17.5 5V7.5C16.2 7.9 15 8.5 13.9 9.3L12.2 7.6C11.8 7.2 11.2 7.2 10.8 7.6L7.6 10.8C7.2 11.2 7.2 11.8 7.6 12.2L9.3 13.9C8.5 15 7.9 16.2 7.5 17.5H5C4.4 17.5 4 17.9 4 18.5V21.5C4 22.1 4.4 22.5 5 22.5H7.5C7.9 23.8 8.5 25 9.3 26.1L7.6 27.8C7.2 28.2 7.2 28.8 7.6 29.2L10.8 32.4C11.2 32.8 11.8 32.8 12.2 32.4L13.9 30.7C15 31.5 16.2 32.1 17.5 32.5V35C17.5 35.6 17.9 36 18.5 36H21.5C22.1 36 22.5 35.6 22.5 35V32.5C23.8 32.1 25 31.5 26.1 30.7L27.8 32.4C28.2 32.8 28.8 32.8 29.2 32.4L32.4 29.2C32.8 28.8 32.8 28.2 32.4 27.8L30.7 26.1C31.5 25 32.1 23.8 32.5 22.5H35C35.6 22.5 36 22.1 36 21.5V18.5C36 17.9 35.6 17.5 35 17.5Z" fill="#1a237e"/>
+                            </svg>
+                        </div>
+                        <div class="hand">
+                            <svg width="60" height="30" viewBox="0 0 60 30" fill="none">
+                                <path d="M5 15C5 8.5 10 3 17 3H43C50 3 55 8.5 55 15C55 21.5 50 27 43 27H17C10 27 5 21.5 5 15Z" fill="#1a237e"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <h1 class="logo-text">ONEBOX</h1>
+            </div>
+            
+            <div class="form-section">
+                <h2>Welcome To OneBox</h2>
+                <p>Please login with your personal information by email address and password</p>
+                
+                <form id="loginForm" class="login-form">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    
+                    <div class="forgot-password">
+                        <a href="#">Forgot password?</a>
+                    </div>
+                    
+                    <button type="submit" class="login-btn">Login Now</button>
+                </form>
+                
+                <div id="message" class="message"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
